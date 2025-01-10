@@ -1,0 +1,23 @@
+body {
+  background-color: #D0DDD7;
+  border: 0;
+}
+
+nav {
+  background-color: #594E36;
+  color: #D0DDD7;
+  height: 50px;
+  padding: 0;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+nav a{
+  display: table-cell;
+  text-align: center;
+  color: #D0DDD7;
+  vertical-align: middle;
+  font-size: 3vw;
+  text-decoration: none
+}
