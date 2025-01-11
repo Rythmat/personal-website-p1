@@ -1,11 +1,31 @@
-body {
-  background-color: #D0DDD7;
-  color: #2F2504;
-  border: 0;
-  top: 70px;
-  bottom: 70px;
+html {
+background-color: #D0DDD7;
 }
 
+body {
+  background-color: #7E846B;
+  color: #D0DDD7;
+  border: 0;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  bottom: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 3vw;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 2vw;
+  margin: 20px;
+}
+
+p {
+  font-size: larger;
+}
 nav {
   background-color: #2F2504;
   height: 70px;
@@ -16,7 +36,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  box-shadow: 0 0 12px -2px black;
+  box-shadow: 0 0 12px -2px 2F2504;
   justify-content: space-between;
 }
 
@@ -32,14 +52,14 @@ nav a {
 
 section {
   background-color: #594E36;
-  color: #D0DDD7;
-  border-top: 1px solid #D0DDD7;
+  border-top: 2px solid #2F2504;
+  padding-bottom: 0;
 }
 
 
 footer {
   background-color: #2F2504;
-  color: #D0DDD7;
+  color: #A5AE9E;
   height: 50px;
   width: 100%;
   position: fixed;
@@ -56,9 +76,22 @@ footer a {
   vertical-align: middle;
 }
 
+/* .statement {
+  display: flexbox;
+} */
 
 
 
+.hobbies img {
+  float: right;
+  padding-top: 20px;
+  height: 360px;
+}
 
+.hobbies p {
+  margin: 20px;
+}
 
-
+.lastp {
+  padding-bottom: 20px;
+}
